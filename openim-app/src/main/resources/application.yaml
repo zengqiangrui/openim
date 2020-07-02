@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: service-im-app
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://129.28.206.73:3306/openim
+    username: root
+    password: qiangrui99
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-timeout: 10000
+      idle-timeout: 30000
+      max-lifetime: 1800000
+      maximum-pool-size: 8
+      minimum-idle: 3
+      pool-name: defaultPool
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    open-in-view: false
+    database-platform: org.hibernate.dialect.MySQL55Dialect
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 30
+          order_inserts: true
+          order_updates: true
