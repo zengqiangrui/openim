@@ -1,11 +1,6 @@
 HELP.md
 target/
 
-openim-common/target/
-openim-api/target/
-openim-app/target/
-
-
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**

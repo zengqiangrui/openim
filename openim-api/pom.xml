@@ -12,4 +12,11 @@
     <artifactId>openim-api</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>indi.qiangrui.openim</groupId>
+            <artifactId>openim-dto</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
